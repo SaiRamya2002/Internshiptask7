@@ -1,0 +1,63 @@
+/* Home.css */
+
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f8ff; /* Light background color */
+}
+
+.home-container {
+  max-width: 1200px; /* Limit width for larger screens */
+  margin: auto; /* Center align the container */
+  padding: 20px; /* Add padding around the content */
+  text-align: center; /* Center align text */
+}
+
+.header {
+  margin-bottom: 40px; /* Space below the header */
+}
+
+h1 {
+  color: #4caf50; /* Green color for the heading */
+  font-size: 2.5rem; /* Larger heading */
+}
+
+p {
+  color: #666; /* Darker grey for the paragraph */
+  margin-bottom: 30px; /* Space below the paragraph */
+  line-height: 1.5; /* Improve line spacing */
+}
+
+.cta-button {
+  background-color: #4caf50; /* Green background for the button */
+  color: white; /* White text color */
+  padding: 10px 20px; /* Padding around the button */
+  border: none; /* No border */
+  border-radius: 5px; /* Rounded corners */
+  text-decoration: none; /* Remove underline */
+  font-size: 1.2rem; /* Slightly larger font */
+}
+
+.cta-button:hover {
+  background-color: #388e3c; /* Darker green on hover */
+}
+
+.offerings {
+  display: flex; /* Use flexbox for offerings */
+  justify-content: space-between; /* Space out the offerings evenly */
+  margin-top: 30px; /* Space above offerings */
+}
+
+.offering-item {
+  flex: 1; /* Each item takes equal space */
+  margin: 0 10px; /* Space between items */
+}
+
+.offering-image {
+  width: 100%; /* Full width of the item */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+

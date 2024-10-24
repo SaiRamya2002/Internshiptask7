@@ -1,0 +1,204 @@
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Modern font family */
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4; /* Soft background color */
+  color: #333; /* Main text color */
+  line-height: 1.6; /* Improved line height for readability */
+}
+
+h1 {
+  color: black; /* Darker color for headings */
+}
+
+h1 {
+  font-size: 2.5em; /* Larger font size for main titles */
+}
+
+
+/* Navbar Styles */
+nav {
+  background-color:skyblue; /* Bright navbar color */
+  color: white;
+  padding: 15px 20px; /* Padding for navbar */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+nav h1 {
+  display: inline; /* Inline for the restaurant name */
+  font-weight: 700; /* Bold for the restaurant name */
+}
+
+nav ul {
+  list-style-type: none; /* Remove bullet points */
+  display: inline; /* Inline for horizontal menu */
+  margin-left: 30px; /* Spacing from restaurant name */
+}
+
+nav ul li {
+  display: inline; /* Inline for horizontal list */
+  margin-right: 25px; /* Space between menu items */
+}
+
+nav a {
+  color: white; /* White links */
+  text-decoration: none; /* Remove underline */
+  font-weight: 500; /* Medium weight for links */
+}
+
+nav a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+/* Footer Styles */
+footer {
+  text-align: center; /* Centered text in footer */
+  padding: 20px; /* Padding for spacing */
+  background-color:black; /* Match navbar color */
+  color: white; /* White text color */
+  position: relative; /* Adjust footer positioning */
+  width: 100%; /* Full width */
+}
+
+/* Menu Item Styles */
+.menu {
+  display: flex; /* Flex layout for menu */
+  flex-wrap: wrap; /* Wrap items in menu */
+  padding: 20px; /* Padding for menu page */
+  justify-content: center; /* Center items */
+  gap: 20px; /* Spacing between menu items */
+}
+
+.menu-item {
+  background-color: white; /* White background for menu items */
+  border: 1px solid #ddd; /* Light border for menu items */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  padding: 15px; /* Padding for spacing */
+  transition: transform 0.3s, box-shadow 0.3s; /* Smooth transition */
+  text-align: center; /* Center text in menu items */
+  width: 220px; /* Fixed width for uniformity */
+}
+
+.menu-item:hover {
+  transform: translateY(-5px); /* Lift effect on hover */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+}
+
+.menu-item h3 {
+  margin: 10px 0; /* Margin for spacing */
+}
+
+/* Button Styles */
+.button {
+  background-color: #e74c3c; /* Vibrant button color */
+  color: white; /* White text */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Rounded corners */
+  padding: 10px 20px; /* Padding for button */
+  cursor: pointer; /* Pointer cursor on hover */
+  font-size: 16px; /* Font size */
+  transition: background-color 0.3s, transform 0.3s; /* Smooth transition */
+}
+
+.button:hover {
+  background-color: #c0392b; /* Darker red on hover */
+  transform: translateY(-2px); /* Lift effect on hover */
+}
+
+/* Contact Form Styles */
+.contact form {
+  max-width: 500px; /* Maximum width for form */
+  margin: 20px auto; /* Center form horizontally */
+  padding: 20px; /* Padding for form */
+  background-color: white; /* White background for form */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+.contact form input,
+.contact form textarea {
+  width: 90%; /* Full width for input fields */
+  margin: 10px 0; /* Margin for spacing */
+  padding: 10px; /* Padding for better spacing */
+  border: 1px solid #ccc; /* Light border for inputs */
+  border-radius: 4px; /* Rounded corners */
+  transition: border-color 0.3s; /* Transition for border color */
+}
+
+.contact form input:focus,
+.contact form textarea:focus {
+  border-color: #2980b9; /* Highlight border on focus */
+}
+
+.contact form button {
+  display: block; /* Block display for button */
+  margin: 20px 0; /* Margin for spacing */
+  padding: 10px 20px; /* Padding for button */
+  background-color: #2980b9; /* Dark button color */
+  color: white; /* White text for button */
+  border: none; /* Remove border */
+  border-radius: 4px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  font-size: 16px; /* Font size */
+}
+
+.contact form button:hover {
+  background-color: #1a5276; /* Darker blue on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  nav ul {
+    display: block; /* Stack menu items vertically on small screens */
+  }
+
+  nav ul li {
+    margin-bottom: 10px; /* Space between vertical items */
+  }
+
+  .menu-item {
+    width: 100%; /* Full width for menu items on small screens */
+  }
+  .home-container {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  .testimonials-section {
+    background-color: #e7e7e7; /* Light gray for contrast */
+    padding: 20px;
+    margin-bottom: 40px; /* Space below section */
+  }
+  
+  .testimonial-item {
+    text-align: center;
+    margin: 10px 0; /* Space between testimonials */
+  }
+  
+  /* Footer Styles */
+footer {
+  text-align: center; /* Centered text in footer */
+  padding: 10px; /* Reduced padding for smaller footer */
+  background-color: white; /* Match navbar color */
+  color: white; /* White text color */
+  position: relative; /* Adjust footer positioning */
+  width: 100%; /* Full width */
+  margin-top: auto; /* Push footer to bottom */
+  font-size: 0.9em; /* Slightly smaller font size */
+}
+
+  
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,52 @@
+/* Global Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  /* Menu Title Styling */
+  .menu-title {
+    text-align: center;
+    color: lightcoral;
+    margin-bottom: 10px; /* Reduce space between heading and table */
+  }
+  
+  /* Table Styles */
+  .menu-table {
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+    background-color: #fff9c4;
+  }
+  
+  .menu-table th, .menu-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+  }
+  
+  .menu-table th {
+    background-color: #ffa726;
+    color: white;
+  }
+  
+  .menu-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .menu-table img {
+    height: 80px;
+    width: 100px;
+  }
+  
+  .menu-table caption {
+    caption-side: top;
+    font-size: 1.5em;
+    padding: 10px;
+    color: #2e7d32;
+  }
+  
+ 

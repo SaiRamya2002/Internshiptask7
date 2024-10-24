@@ -1,0 +1,21 @@
+/* About.css */
+.about-container {
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Center items vertically */
+    justify-content: space-between; /* Space out content and image */
+    padding: 20px; /* Add some padding */
+    background-color: #f4f4f4; /* Soft background color */
+  }
+  
+  .about-content {
+    flex: 1; /* Allow the content to take available space */
+    margin-right: 20px; /* Space between content and image */
+  }
+  
+  .about-image {
+    width: 50%; /* Adjust percentage as needed */
+    max-width: 400px; /* Limit maximum size */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Rounded corners */
+  }
+    
